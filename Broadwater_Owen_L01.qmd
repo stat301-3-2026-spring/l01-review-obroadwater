@@ -67,7 +67,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Supervised learning uses labeled data and relies on user assumptions such as choosing which predictors to use. Unsupervised learning looks at unlabeled data to create a general idea of the data structures.
 
 :::
 
@@ -80,7 +80,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Describe or emphasize characteristics of a dataset, such as a key trend.
 
 :::
 
@@ -89,7 +89,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Weigh in on a hypothesis that is being tested, for instance determining if there is a causal effect between two variables.
 
 :::
 
@@ -98,7 +98,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Produce accurate predictions for new data.
 
 :::
 
