@@ -1,8 +1,8 @@
 ---
 title: "L01 Review"
 subtitle: "Data Science 3 with R (STAT 301-3)"
-author: "YOUR NAME"
-pagetitle: "L01 YOUR NAME"
+author: "Owen Broadwater"
+pagetitle: "L01 Owen Broadwater"
 date: today
 
 format:
@@ -26,9 +26,7 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
-[https://your-github-repo-url](https://your-github-repo-url)
+[Broadwater Github](https://github.com/stat301-3-2026-spring/l01-review-obroadwater.git)
 :::
 
 ## Overview
@@ -46,7 +44,19 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+- Data cleaning and EDA of the target variable
+- Possible transformation of the target variable
+- Data splitting to create training and testing set, as well as resampling such as v-fold cross-validation
+- Larger EDA of predictors to identify possible feature engineering steps and find ranges for tuning parameters
+- Creation of various recipes to prepare for tuning of parameters
+- Create workflows for model types, using the previously made recipes
+- Tune the model parameters using the resamples
+- Evaluate performance of model parameters and model types
+- Determine the best model type and parameter set
+- Fit the chosen model to the entire training set
+- Run the fitted model on the testing set
+- Evaluate the predictive performance
+- Repeat steps of the process as needed to refine the predictive model
 
 :::
 
