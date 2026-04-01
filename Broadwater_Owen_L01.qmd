@@ -253,7 +253,7 @@ A company with a subscription based service (for example Netflix, Disney+, New Y
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Inferential: there is a hypothesis about a very specific relationship between variables, the question seeks to determine the why behind a customer's likelihood of churn.
 
 :::
 
@@ -262,7 +262,7 @@ YOUR SOLUTION HERE
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Predictive: there is no hypothesis or asking of why, the question seeks to use previous data to make a prediction about a future result.
 
 :::
 
