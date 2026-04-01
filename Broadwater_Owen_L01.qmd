@@ -44,19 +44,14 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
-- Data cleaning and EDA of the target variable
-- Possible transformation of the target variable
-- Data splitting to create training and testing set, as well as resampling such as v-fold cross-validation
-- Larger EDA of predictors to identify possible feature engineering steps and find ranges for tuning parameters
-- Creation of various recipes to prepare for tuning of parameters
-- Create workflows for model types, using the previously made recipes
-- Tune the model parameters using the resamples
-- Evaluate performance of model parameters and model types
-- Determine the best model type and parameter set
-- Fit the chosen model to the entire training set
-- Run the fitted model on the testing set
-- Evaluate the predictive performance
-- Repeat steps of the process as needed to refine the predictive model
+- Data cleaning
+- Data processing
+- Feature Engineering
+- Model Tuning
+- Cross Validation
+- Model Selection
+- Model Fitting
+- Evaluation of Performance
 
 :::
 
@@ -67,7 +62,7 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Supervised learning uses labeled data and relies on user assumptions such as choosing which predictors to use. Unsupervised learning looks at unlabeled data to create a general idea of the data structures.
+Supervised learning uses labeled data and a desired outcome and relies on user assumptions such as choosing which predictors to use. Unsupervised learning looks at unlabeled data to create a general idea of the data structures, extracting information even though there is no specifically desired outcome.
 
 :::
 
@@ -80,7 +75,7 @@ In general, we can classify a model by its purpose into 1 of the 3 categories be
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Describe or emphasize characteristics of a dataset, such as a key trend.
+Describe or emphasize characteristics of a dataset, such as a key trend. It summarizes the data.
 
 :::
 
@@ -113,7 +108,7 @@ What does it mean to be a mechanistic model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models build a representation of a system based on known equations or laws, to explain why observed patterns occur.
 
 :::
 
@@ -124,7 +119,7 @@ What does it mean to be an empirically driven model?
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Empirical models build a representation from the data, using the data's patterns and observations to build an equation, demonstrating how a system behaves.
 
 :::
 
@@ -135,7 +130,7 @@ How does the mechanistic and empirically driven model terminology relate to the 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Parametric models are based on an assumed equation like linear regression, much like how mechanistic models impose preconceived equations. Nonparametric models do not make any assumptions about equations, similar to how empirical models derive their equations from the data.
 
 :::
 
@@ -146,7 +141,7 @@ In general, is a mechanistic or empirically driven model easier to interpret? Ex
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic drive models are usually easier to interpret because they use equation forms that are already known and established. Conversely empirically driven models create new equations that are harder to understand.
 
 :::
 
@@ -157,7 +152,7 @@ How does mechanistic and empirically driven model terminology relate to the idea
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Empirically drive models are more flexible because the derivation of equations from the data allows for a much greater range of equation forms than mechanistic models that only draw upon known or established equation forms.
 
 :::
 
@@ -168,7 +163,7 @@ Describe the bias-variance trade-off when considering the use of a mechanistic o
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Mechanistic models tend to have lower variance and higher bias due to its simple model that tends to underfit the data, whereas empirical models tend to have higher variance and lower bias due to its compleixity that tends to overfit the data.
 
 :::
 
@@ -179,7 +174,7 @@ Explain the difference between a regression and classification machine learning 
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Regression ML problems are used to look at continuous outcomes, such as housing prices, while classification ML problems are used to look at discrete outcomes like whether someone has a disease.
 
 :::
 
