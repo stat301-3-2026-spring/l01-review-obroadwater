@@ -207,7 +207,7 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Bootstrap resampling might be used in cases of small data sets, where there isn't enough distinct observations to create representative folds in v-fold cross validation.
 
 :::
 
@@ -218,7 +218,7 @@ Briefly describe model tuning and why we use it.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Model tuning involves changing the parameters of a model and testing many different combinations of those parameters. The parameters change the model's performance so finding the best performing parameter set improves the performance of the model without changing anything else.
 
 :::
 
@@ -229,7 +229,7 @@ What are two common performance metrics when dealing with a regression ML proble
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Two common performance metrics for regression ML problems are RMSE and MAE.
 
 :::
 
@@ -238,7 +238,7 @@ What are two common performance metrics when dealing with a classification ML pr
 ::: {.callout-tip icon="false"}
 ## Solution
 
-YOUR SOLUTION HERE
+Two common performance metrics for classification ML problems are Accuracy and AUC-ROC.
 
 :::
 
