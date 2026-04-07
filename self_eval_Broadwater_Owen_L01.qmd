@@ -62,16 +62,27 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+3
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
+My steps weren't incorrect but reflected a pared down version of the actual process. For instance, I left out steps such as data collection and resampling techniques. This occurred because I was struggling to transfer the entire machine learning process into a condensed list, so I didn't make great decisions about which steps were important to include.
 
 ## Updated solution
 
 *Only required if a 3 or less is scored on the question.*
 
+- Data collection
+- Data cleaning
+- Data processing
+- Splitting of the data
+- Setup of resampling technique
+- Feature Engineering, recipe building
+- Model Tuning
+- Cross Validation
+- Selection of the best model
+- Fitting the best model to the whole training set
+- Evaluation of Performance on the testing set
 
 :::
 
@@ -82,7 +93,9 @@ Explain the difference between supervised and unsupervised learning.
 ::: {.callout-tip icon="false"}
 ## Solution
 
-Supervised learning uses labeled data and a desired outcome and relies on user assumptions such as choosing which predictors to use. Unsupervised learning looks at unlabeled data to create a general idea of the data structures, extracting information even though there is no specifically desired outcome.
+Supervised learning uses labeled data and a desired outcome and relies on user assumptions such as choosing which predictors to use.
+
+Unsupervised learning looks at unlabeled data to create a general idea of the data structures, extracting information even though there is no specifically desired outcome.
 
 :::
 ### Self Evaluation
@@ -90,16 +103,11 @@ Supervised learning uses labeled data and a desired outcome and relies on user a
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+My response was correct, although I drew a slightly misleading line around the role of labelled vs. unlabeled data which isn't always a difference in supervised/unsupervised learning. Supervised learning generally does require labeled data but unsupervised learning can use both.
 
 :::
 
@@ -120,16 +128,11 @@ Describe or emphasize characteristics of a dataset, such as a key trend. It summ
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+My answer is correct, I could have included that the goal is to visually emphasize a trend of the data.
 
 :::
 
@@ -146,16 +149,11 @@ Weigh in on a hypothesis that is being tested, for instance determining if there
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+My answer was correct, in my words.
 
 :::
 
@@ -172,16 +170,11 @@ Produce accurate predictions for new data.
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I left out that the goal is produce the *most* accurate prediction possible, as well as that their is a outcome variable involved.
 
 :::
 
@@ -204,16 +197,11 @@ Mechanistic models build a representation of a system based on known equations o
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+My answer was correct, although it left out a discussion of the benefits of mechanistic models, such as fast computation.
 
 :::
 
@@ -232,15 +220,11 @@ Empirical models build a representation from the data, using the data's patterns
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
+Similar to my answer on mechanistic models, I did not discuss the benefits of empirical models, namely flexibility at the expense of slower computation time.
 
 
 :::
@@ -260,16 +244,11 @@ Parametric models are based on an assumed equation like linear regression, much 
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+My answer is correct, explains the linkage between terms.
 
 :::
 
@@ -288,16 +267,11 @@ Mechanistic drive models are usually easier to interpret because they use equati
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+My answer is correct and very similar to the solution.
 
 :::
 
@@ -316,16 +290,11 @@ Empirically drive models are more flexible because the derivation of equations f
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified that the key reason for the flexibility of empirically driven models is their lack of restrictions on equations.
 
 :::
 
@@ -344,15 +313,11 @@ Mechanistic models tend to have lower variance and higher bias due to its simple
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
+I captured the basic trends of the bias-variance trade-off, but didn't quite explain the conceptual underpinnings of that trend, that mechanistic models lack of flexibility makes underfitting likely, for instance.
 
 
 :::
@@ -372,16 +337,11 @@ Regression ML problems are used to look at continuous outcomes, such as housing 
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I correctly identified the difference between regression and classification, and gave examples of their use.
 
 :::
 
@@ -400,15 +360,11 @@ Stratifying by the target variable ensures that relative proportions of the targ
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
+I identified the benefits of stratifying by the outcome variable, although I didn't fully explain the problems that arise from a training set that doesn't capture the distribution of the overall data's outcome variable -- overfitting or underfitting, thus poor predictive power.
 
 
 :::
@@ -428,16 +384,19 @@ V-fold cross validation splits the training data set into v number of folds then
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+3
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
+My answer is correct but incomplete. I failed to discuss the role of repeats and how the estimates are combined. I also did not discuss the benefits of v-fold cross validation on bias and variance.
 
 ## Updated solution
 
 *Only required if a 3 or less is scored on the question.*
 
+V-fold cross validation splits the training data set into v number of folds then take turns using one as the evaluation set and all other folds as the training set for a model. This happens r times, and the estimates are then averaged to produce a final estimate of a metric such as RMSE.
+
+This helps combat overfitting by averaging the performance of a model over many different sets of training and evaluation, before using the final testing set. This reduces the effects of random varaition and bias from the distinct samples, giving a better estimate of performance. Thus comparison of various model types and parameter sets is better, as the RMSE was not influenced by different splits to a problematic degree.
 
 :::
 
@@ -456,16 +415,11 @@ Bootstrap resampling might be used in cases of small data sets, where there isn'
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I identified the benefits of bootstrapping in small data sets, but did not mention that bootstrap resampling leads to low variance in RMSE.
 
 :::
 
@@ -484,17 +438,11 @@ Model tuning involves changing the parameters of a model and testing many differ
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
-
+I explained how model tuning is used within the machine learning process but didn't fully articulate that each set of tuning parameters yields a different model with different performance.
 :::
 
 ### Question 10 
@@ -512,16 +460,11 @@ Two common performance metrics for regression ML problems are RMSE and MAE.
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I identified 2 very common metrics for regression ML.
 
 :::
 
@@ -532,6 +475,17 @@ What are two common performance metrics when dealing with a classification ML pr
 
 Two common performance metrics for classification ML problems are Accuracy and AUC-ROC.
 
+:::
+### Self Evaluation
+
+::: {.callout-important icon="false"}
+
+## Score 
+5
+
+## Explanation
+
+I identified 2 very common metrics for classification ML.
 :::
 
 ### Question 11
@@ -553,16 +507,11 @@ Inferential: there is a hypothesis about a very specific relationship between va
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+4
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
+I understood that it was an inferential problem, and explained how I knew, but I didn't identify the specific predictor variable (number of service calls).
 
 :::
 
@@ -579,16 +528,10 @@ Predictive: there is no hypothesis or asking of why, the question seeks to use p
 ::: {.callout-important icon="false"}
 
 ## Score 
-
+5
 
 ## Explanation
 
-Explain the score. Clearly identify what your misunderstandings were. Explain why you believe this error/misunderstanding occurred.
-
-## Updated solution
-
-*Only required if a 3 or less is scored on the question.*
-
-
+I correctly identified that it was a predictive problem and explained how I knew.
 :::
 
